@@ -15,8 +15,8 @@ curl -LO "${URL}/x/xfce4-zorinmenulite-plugin/xfce4-zorinmenulite-plugin_1.1.4_$
 
 sudo dpkg -i "zorin-desktop-themes_3.4.2_all.deb"
 sudo dpkg -i "zorin-icon-themes_2.9.4_all.deb"
-sudo dpkg -i "zorin-os-wallpaper-16_16.2_all.deb"
-sudo dpkg -i "zorin-os-wallpaper_16.2_all.deb"
+sudo dpkg -i "zorin-os-wallpapers-16_16.2_all.deb"
+sudo dpkg -i "zorin-os-wallpapers_16.2_all.deb"
 sudo dpkg -i "xfce4-zorinmenulite-plugin_1.1.4_${ARCH}.deb"
 
 xz -d -v zorin-os-lite-default-settings_16.1.4.tar.xz
