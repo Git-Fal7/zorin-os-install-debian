@@ -23,6 +23,8 @@ xz -d -v zorin-os-lite-default-settings_16.1.4.tar.xz
 tar -xf zorin-os-lite-default-settings_16.1.4.tar
 cd zorin-os-lite-default-settings_16.1.4/
 sudo make DESTDIR=/ install
+sudo cp /etc/xdg/xdg-zorin-os-lite/* /etc/xdg/
+sudo cp -r /etc/xdg/xdg-zorin-os-lite/* /etc/xdg/
 
 cd ..
 rm -rf "debianzorinosinstall/"
