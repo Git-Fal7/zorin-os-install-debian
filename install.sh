@@ -3,8 +3,8 @@
 URL="http://ppa.launchpad.net/zorinos/stable/ubuntu/pool/main"
 ARCH="amd64"
 
-mkdir "debianzorinosinstall"
-cd "debianzorinosinstall"
+mkdir "debianzorinosinstall/"
+cd "debianzorinosinstall/"
 echo "downloading"
 curl -LO "${URL}/z/zorin-desktop-themes/zorin-desktop-themes_3.4.2_all.deb"
 curl -LO "${URL}/z/zorin-icon-themes/zorin-icon-themes_2.9.4_all.deb"
